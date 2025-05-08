@@ -4,7 +4,7 @@ This is a frontend beauty care website developed using React and Vite.
 
 ## Live Demo
 
-Live: [Live Site Link](https://beauty-care.netlify.app)
+Live: [Live Site Link](https://beautycare-app.netlify.app/)
 
 ## Features
 
