@@ -1,0 +1,162 @@
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: rgb(108, 0, 141);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  z-index: 999;
+  transition: background-color 0.3s ease;
+}
+
+.dark nav {
+  background-color: rgb(9, 31, 71);
+  color: #fff;
+}
+
+.nav-logo {
+  color: rgb(182, 255, 122);
+  font-family: "Winky Rough", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.nav-logo .care {
+  color: rgb(252, 42, 154);
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.Nav-Container {
+  padding: 0.5rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1.5rem;
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  align-items: center;
+  transition: left 0.3s ease;
+}
+
+nav ul li span {
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+nav ul li span:hover {
+  color: rgb(255, 212, 76);
+}
+
+.active {
+  color: rgb(178, 253, 57);
+  border-bottom: 2px solid rgb(178, 253, 57);
+  display: inline;
+}
+
+.nav-bar {
+  font-size: 28px;
+  color: #fff;
+  display: none;
+  cursor: pointer;
+}
+
+.contact {
+  background-color: rgb(252, 42, 154);
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.4rem 0.8rem;
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0 1.5rem;
+  transition: 0.3s ease;
+}
+
+.contact:hover {
+  background-color: rgb(165, 24, 99);
+}
+
+.dark-light-mode {
+  padding: 0.3rem 0.4rem;
+  border-radius: 50%;
+  font-size: 22px;
+  cursor: pointer;
+  color: rgb(252, 42, 154);
+  transition: 0.3s ease;
+}
+
+.dark .dark-light-mode {
+  color: #fff;
+}
+
+@media screen and (max-width: 850px) {
+  .nav-bar {
+    display: block;
+  }
+
+  nav ul {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 200px;
+    background-color: rgba(108, 0, 141, 0.9);
+    text-align: center;
+    padding: 2rem 1rem;
+    border-radius: 0 0.3rem 0.3rem 0;
+  }
+
+  .dark nav ul {
+    background-color: rgba(25, 56, 114, 0.95);
+  }
+
+  .hidemenu {
+    left: -220px;
+    transition: left 0.5s ease;
+  }
+
+  nav ul li {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .Nav-Container {
+    padding: 0.5rem 1rem;
+  }
+
+  .nav-logo {
+    font-size: 20px;
+  }
+
+  .contact {
+    margin: 0 0.5rem;
+    padding: 0.3rem 0.6rem;
+    font-size: 14px;
+  }
+
+  .dark-light-mode {
+    position: fixed;
+    top: 4.5rem;
+    right: 1.5rem;
+  }
+}

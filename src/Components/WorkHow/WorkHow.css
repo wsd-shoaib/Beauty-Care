@@ -1,0 +1,134 @@
+.WorkHow-area {
+  background-image: url("assets/bridal.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.workhow {
+  background-color: rgba(27, 27, 27, 0.685);
+  color: #fff;
+  text-align: center;
+  padding: 3rem 2.5rem 4rem 2.5rem;
+}
+
+.workhow h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.workhow p {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.work-card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+  width: 70%;
+  margin: 2rem auto 0 auto;
+  flex-wrap: wrap;
+}
+
+.cards {
+  background-color: rgba(240, 239, 239, 0.932);
+  color: #000;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  text-align: center;
+  transition: 0.8s ease-in-out;
+  position: relative;
+  width: 30%;
+  min-width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cards:hover {
+  transform: scale(1.05);
+}
+
+.dark .cards {
+  background-color: rgb(7, 41, 63);
+  color: #fff;
+}
+
+.cards span {
+  position: absolute;
+  top: -1.1rem;
+  background-color: rgb(14, 179, 55);
+  padding: 0.4rem 0.9rem;
+  border-radius: 10rem;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* ✅ Responsive Media Queries */
+
+@media (max-width: 1024px) {
+  .work-card {
+    width: 90%;
+  }
+
+  .cards {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .work-card {
+    flex-direction: column;
+    width: 100%;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .cards {
+    width: 90%;
+  }
+
+  .workhow {
+    padding: 2rem 1.5rem;
+  }
+
+  .workhow h1 {
+    font-size: 2rem;
+  }
+
+  .workhow p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cards {
+    padding: 1rem;
+  }
+
+  .cards span {
+    font-size: 14px;
+    padding: 0.3rem 0.7rem;
+    top: -1rem;
+  }
+
+  .cards h4 {
+    font-size: 1.1rem;
+  }
+
+  .cards p {
+    font-size: 0.95rem;
+  }
+
+  .workhow h1 {
+    font-size: 1.6rem;
+  }
+
+  .workhow p {
+    font-size: 0.95rem;
+  }
+}

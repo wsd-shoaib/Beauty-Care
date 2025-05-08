@@ -1,0 +1,49 @@
+.footer {
+  background-color: #200c41;
+  color: #fff;
+  padding: 2rem 1.5rem 1rem;
+  font-family: "Outfit", sans-serif;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.footer-section {
+  flex: 1 1 200px;
+}
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #e91e63;
+}
+.footer-section h4 {
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-section li {
+  margin-bottom: 0.5rem;
+}
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-section a:hover {
+  text-decoration: underline;
+}
+.social-icons a {
+  color: #e91e63;
+  font-size: 1.3rem;
+  margin-right: 1rem;
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}

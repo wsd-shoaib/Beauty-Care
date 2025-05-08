@@ -1,0 +1,62 @@
+[
+  {
+    "category": "Skin Care",
+    "services": [
+      {
+        "imgUrl": "./assets/facial.jpg",
+        "title": "Facial Treatment",
+        "description": "Rejuvenate your skin with our natural facial therapies."
+      },
+      {
+        "imgUrl": "./assets/born.jpg",
+        "title": "Acne Solution",
+        "description": "Say goodbye to acne with our expert skin treatments."
+      }
+    ]
+  },
+  {
+    "category": "Hair Care",
+    "services": [
+      {
+        "imgUrl": "./assets/hire.jpg",
+        "title": "Hair Cut & Styling",
+        "description": "Trendy cuts and styling that suits your personality."
+      },
+      {
+        "imgUrl": "./assets/color.jpg",
+        "title": "Hair Coloring",
+        "description": "Premium hair coloring with long-lasting shine."
+      }
+    ]
+  },
+  {
+    "category": "Makeup",
+    "services": [
+      {
+        "imgUrl": "./assets/wedding.jpg",
+        "title": "Bridal Makeup",
+        "description": "Perfect glam look for your big day!"
+      },
+      {
+        "imgUrl": "./assets/party.jpg",
+        "title": "Party Makeup",
+        "description": "Look stunning at any event or celebration."
+      }
+    ]
+  },
+  {
+    "category": "Body Massage",
+    "services": [
+      {
+        "imgUrl": "./assets/body-massage.jpg",
+        "title": "Aromatherapy Massage",
+        "description": "Relax with essential oils and gentle massage techniques."
+      },
+      {
+        "imgUrl": "./assets/deep-tissu.jpg",
+        "title": "Deep Tissue Massage",
+        "description": "Target muscle tension with our deep tissue treatments."
+      }
+    ]
+  }
+]

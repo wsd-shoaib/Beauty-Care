@@ -1,0 +1,62 @@
+[
+  {
+    "category": "Skin Care",
+    "services": [
+      {
+        "imgUrl": "/assets/facial.jpg",
+        "title": "Facial Treatment",
+        "description": "Our facial treatments are designed to cleanse, exfoliate, and nourish your skin, promoting a clear and well-hydrated complexion. This service helps reduce signs of aging and revives tired, dull skin using natural, skin-friendly products."
+      },
+      {
+        "imgUrl": "/assets/born.jpg",
+        "title": "Acne Solution",
+        "description": "Our acne solution program is tailored to treat different types of acne by deeply cleansing your pores, removing excess oil, and applying targeted treatments. With consistent sessions, you’ll experience visible improvements in skin texture and clarity."
+      }
+    ]
+  },
+  {
+    "category": "Hair Care",
+    "services": [
+      {
+        "imgUrl": "/assets/hire.jpg",
+        "title": "Hair Cut & Styling",
+        "description": "Get a personalized haircut and style that complements your face shape and lifestyle. Our expert stylists provide precision cuts and creative styling, leaving your hair looking modern, fresh, and full of life."
+      },
+      {
+        "imgUrl": "/assets/color.jpg",
+        "title": "Hair Coloring",
+        "description": "Choose from a wide range of vibrant shades and subtle tones for a hair transformation. We use premium coloring products that nourish your hair and give it a rich, long-lasting shine without damaging its natural texture."
+      }
+    ]
+  },
+  {
+    "category": "Makeup",
+    "services": [
+      {
+        "imgUrl": "/assets/wedding.jpg",
+        "title": "Bridal Makeup",
+        "description": "Our bridal makeup service ensures you look absolutely stunning on your special day. From traditional elegance to modern glam, we customize the look to match your outfit, skin tone, and personality using long-lasting, high-quality products."
+      },
+      {
+        "imgUrl": "/assets/party.jpg",
+        "title": "Party Makeup",
+        "description": "Whether it’s a birthday bash or evening event, our party makeup adds that extra sparkle to your appearance. We enhance your natural features with stylish touches so you can stand out confidently at any occasion."
+      }
+    ]
+  },
+  {
+    "category": "Body Massage",
+    "services": [
+      {
+        "imgUrl": "/assets/body-massage.jpg",
+        "title": "Aromatherapy Massage",
+        "description": "Immerse yourself in a deeply relaxing experience with our aromatherapy massage. Essential oils are carefully chosen to soothe your senses and relieve stress, while gentle massage techniques improve circulation and bring emotional balance."
+      },
+      {
+        "imgUrl": "/assets/deep-tissu.jpg",
+        "title": "Deep Tissue Massage",
+        "description": "This massage targets deeper layers of muscle and connective tissue to relieve chronic pain, stiffness, and tension. Ideal for athletes and individuals with physically demanding lifestyles, it helps enhance recovery and improve flexibility."
+      }
+    ]
+  }
+]
