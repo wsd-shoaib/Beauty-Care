@@ -1,12 +1,42 @@
-# React + Vite
+# Beauty Care Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a frontend beauty care website developed using React and Vite.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live: [Live Site Link](https://beauty-care.netlify.app)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Product listing
+- Category filter
+- Responsive design
+- Clean UI with React Components
+- Fast performance with Vite
+
+## Project Structure
+
+├── public/
+│ └── index.html # Main HTML file
+| ├── assets/ # Images, fonts, and other assets
+├── src/
+│ ├── components/ # All React components
+│ │ ├── Header.js # Header component
+│ │ ├── ProductList.js # Product listing component
+│ │ └── Footer.js # Footer component
+│ ├── pages/ # Pages for routing (if any)
+│ │ ├── HomePage.js # Homepage component
+│ │ └── ProductPage.js # Product detail page
+│ ├── App.js # Main App component
+│ └── index.js # React DOM entry point
+└── README.md # Project documentation
+
+## Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/wsd-shoaib/Beauty-Care.git
+   ```
+
+npm install
+npm run dev
