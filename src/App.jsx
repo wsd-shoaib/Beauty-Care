@@ -4,9 +4,8 @@ import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import { useEffect, useState } from "react";
 import "aos/dist/aos.css";
-import AOS from "aos";
-import Services from "./Components/Services/Services";
 
+import Services from "./Components/Services/Services";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ServiceSingle from "./Components/Services/ServiceSingle";
 import WorkHow from "./Components/WorkHow/WorkHow";
@@ -30,15 +29,6 @@ function App() {
       localStorage.setItem("theme", "light");
     }
   }, [theme]);
-
-  useEffect(() => {
-    AOS.init({
-      offset: 200,
-      duration: 600,
-      easing: "ease-in-sine",
-      delay: 100,
-    });
-  }, []);
 
   return (
     <Router>

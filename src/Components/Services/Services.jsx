@@ -42,11 +42,7 @@ const Services = () => {
         ))}
       </div>
 
-      <div
-        className="service-cards"
-        data-aos="zoom-in"
-        data-aos-duration="1300"
-      >
+      <div className="service-cards">
         {selectedServices.length > 0 ? (
           selectedServices.map((service, idx) => (
             <Link

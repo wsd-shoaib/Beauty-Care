@@ -15,7 +15,7 @@ const About = () => {
   };
   return (
     <div id="about" className="about-area">
-      <div className="about-left" data-aos="zoom-in" data-aos-duration="1500">
+      <div className="about-left">
         {!isVideoPlaying ? (
           <div>
             <img src="assets/makup.jpg" alt="" />
@@ -43,11 +43,7 @@ const About = () => {
         </div>
       )}
 
-      <div
-        className="about-right"
-        data-aos="fade-left"
-        data-aos-duration="1500"
-      >
+      <div className="about-right">
         <h1>🌿 About of Beauty Care</h1>
         <p>
           Beauty is not just about appearance — it’s about care, confidence, and

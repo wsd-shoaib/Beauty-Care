@@ -1,4 +1,3 @@
-import React from "react";
 import "./WorkHow.css";
 
 const WorkHow = () => {
@@ -13,7 +12,7 @@ const WorkHow = () => {
           </p>
         </div>
         <div className="work-card">
-          <div className="cards" data-aos="zoom-in" data-aos-duration="1200">
+          <div className="cards">
             <span>1</span>
             <h4>Fill a Form</h4>
             <p>
@@ -21,7 +20,7 @@ const WorkHow = () => {
               temporibus?
             </p>
           </div>
-          <div className="cards" data-aos="zoom-in" data-aos-duration="1200">
+          <div className="cards">
             <span>2</span>
             <h4>Get Matched</h4>
             <p>
@@ -29,7 +28,7 @@ const WorkHow = () => {
               temporibus?
             </p>
           </div>
-          <div className="cards" data-aos="zoom-in" data-aos-duration="1200">
+          <div className="cards">
             <span>3</span>
             <h4>Schedule</h4>
             <p>
